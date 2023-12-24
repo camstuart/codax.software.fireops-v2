@@ -17,6 +17,12 @@ piccolo migrations check
 piccolo migrations forwards database
 ```
 
+Generate AUTH_SECRET
+
+```bash
+openssl rand -base64 64
+```
+
 ## Initial Setup (SvelteKit)
 
 ```bash
