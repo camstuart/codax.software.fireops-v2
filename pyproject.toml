@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fireops-unified-v2"
+version = "0.1.0"
+description = ""
+authors = ["Cam Stuart <cam.asoftware@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.105.0"
+uvicorn = "^0.25.0"
+piccolo = {extras = ["postgres"], version = "^1.2.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
